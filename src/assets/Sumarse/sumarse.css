@@ -1,0 +1,150 @@
+.fondoGris{
+width: 100%;
+height: 300px;
+margin: 0px 0px 0px 0px;
+z-index: 2;
+object-fit: fill;
+}
+
+.fondoGrisCelular {
+
+  display:none;
+}
+
+.text{
+       width: 60%; /* Establece el ancho del contenedor */
+        color: grey;
+        font-size: large;
+        margin-top: -256px;
+        margin-left:  2%;
+        font-family: 'Open Sans', sans-serif;
+        margin-bottom: 50px;
+       
+ 
+}
+
+h2{ 
+  margin-top: -10px;
+  margin-bottom: -10px;
+  font-family: 'Open Sans', sans-serif;
+    margin-left:  2%;
+    font-size: xx-large;
+    color: blue;
+}
+
+button{
+    
+    background-color: blue;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: larger;
+    margin-left:  2%;
+    margin-top: 60px;
+    width: 230px;
+    height: 40px;
+    border-radius: 26px;
+    border: none;
+    box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+ 
+}
+button:hover {
+    background-color: #4aa3df; /* Cambia el color al azul más claro cuando se coloca el ratón sobre el botón */
+  }
+
+
+  @media screen and (max-width: 1800px) {
+
+    h3 {
+
+        display: none;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+
+.text {
+    
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+   
+
+}
+
+
+
+button {
+
+    margin-left:  35%;
+    margin-top: 0px;
+}
+
+
+.cont {
+
+    width: 100%;
+    height: 100%;
+}
+
+.fondoGris {
+
+    height: 350px;
+}
+
+ 
+  }
+
+  @media screen and (max-width: 800px) {
+
+    button {
+
+        margin-left:  16%;
+    }
+    .text{
+
+        margin-top: -250px;
+    }
+
+    .fondoGris {
+
+        width: 103%;
+        height: 290px;
+            
+       
+    }
+    
+  }
+
+  @media screen and (max-width: 480px) { 
+
+    .text {
+
+        text-align: left;
+    }
+
+   .fondoGris {
+
+    display: none;
+   } 
+
+   h2 {
+
+    font-size: x-large;
+    margin: -20px 0px 30px 40px;
+   }
+
+   .fondoGrisCelular {
+
+     display: block;
+     
+     width: 103%;
+     height: 290px;
+   }
+
+   button {
+    margin-top: -10px;
+
+    margin-left:  9%;
+}
+  }

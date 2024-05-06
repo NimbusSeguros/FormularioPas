@@ -1,0 +1,588 @@
+
+input{ user-select:none; }
+
+.symbol{
+   margin-top: 60px;
+}
+
+
+object {
+    border-color: none;
+    border-style:none;
+    display: grid;
+    grid-template-rows: auto auto;
+    margin-top: -20px;
+    height: 110px;
+    width: 60%;
+    margin-left: 0px;
+ 
+    
+    
+    }
+    
+  
+    
+    label {
+        font-family: sans-serif;
+        color: white;
+        font-size: medium;
+        margin-top: 35px;
+        margin-bottom: -42px;
+        
+    }
+    
+    .message{
+        border-color: none;
+        border-style:none;
+        grid-template-rows: auto auto;
+        margin-top: -30px;
+        height: 190px;
+        width: 60%;
+    
+    
+    }
+    
+    .send{
+    
+        background-color:#A2FF86;
+        color: rgb(49, 49, 49);
+        font-family: sans-serif;
+        font-size: larger;
+        margin-left:  36%;
+        margin-top: 0px;
+        width: 25%;
+        height: 2.5rem;
+        border-radius: 10px;
+        border: none;
+        box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.5);
+        cursor: pointer;
+        margin-bottom: 10px;
+      
+     
+    }
+.field-name{
+    display: flex;
+    margin-top: 20px;
+}
+.field-email{
+    display: felx;
+    margin-top: -50px;
+
+}
+.selectProv{
+    margin-left: -95px;
+    margin-top: 45px;
+    height: 40px;
+    width: 95%; 
+}
+.inTel{
+    margin-left: -60px;
+    margin-top: 45px;
+    height: 40px;
+    width: 95%;
+}
+.labelProv{
+    margin-right: 30px;
+    margin-top: 15px;
+}
+
+.inpT{
+    margin-top: 80px;
+    height: 100px;
+    width: 129%;
+    margin-left: -447px;
+    margin-right: 10px;
+}
+    .inp{
+        height: 40px;
+        width: 60%;
+        margin-top: 70px;
+        margin-left: -130px;
+        margin-bottom: 1px;
+    }
+    
+    .in{
+        height: 40px;
+        width: 60%;
+        margin-top: 65px;
+        margin-left: -40px;
+        margin-right: 50px;
+
+    }
+    option{
+        font-size: xl;
+        color: #ccc;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .field-nameE {
+        margin-top: -10px;
+    }
+    
+    
+    .send:hover {
+        background-color:rgb(119, 221, 119);
+      }
+    
+    input{
+    
+        height: 50%;
+        width: 80%;
+        border-radius: 5px;
+        border: none;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        margin-top: 31px;
+        margin-bottom: 29px;
+    }
+    
+    select {
+        margin-bottom: 11px;
+        margin-top: -1px;
+        border-radius:  6px;
+        border: none;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    } 
+    
+    textarea{
+        margin-top: 70px;
+        margin-left: -300px;
+        margin-bottom: 0px;
+        border-radius: 5px;
+        border: none;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    }
+  .labelTel{
+    margin-top: 15px;
+  }
+  .labelMail{
+    margin-top: 26px;
+  }
+    
+    .grid-form {
+        margin-top: -40px;
+    display: flex;
+    height: 110px;
+    width: 61%;
+    
+    }
+    
+    .telefono{
+        margin-top: 50px;
+        height: 37px;
+    }
+    
+    input::placeholder{
+    font-size: xl;
+    color: #ccc;
+    
+    }
+    
+    
+    .placeholder{
+        margin-top: 20PX;
+    }
+    
+    textarea::placeholder {
+    
+        margin-top: 20px;
+        font-size: xl;
+        color: #ccc;
+        font-family: 'Open Sans', sans-serif;
+    
+    }
+    
+    .symbol {
+    
+        margin-top: 45px;
+    }
+
+    .symbol-Requiered2{
+
+        margin-top: 45px;
+    }
+
+ 
+
+    @media screen and (max-width: 1700px) {
+      
+
+        .symbol{
+            margin-top: 25px;
+        }
+
+        textarea {
+            margin-top: 55px;
+            margin-left: -257px;
+            margin-bottom: 0px;
+            border-radius: 5px;
+            border: none;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+            margin-right: 10px;
+        }
+
+        .in{
+            height: 40px;
+            width: 105%;
+          
+            margin-left: -300px;
+            margin-right: 300px;
+    
+        }
+
+       
+    }
+    @media screen and (max-width: 1300px) {
+    
+        object{
+            margin-left: 0px;
+        }
+
+        .inTel {
+            margin-left: -48px;
+            margin-top: 45px;
+            height: 35%;
+            width: 91%;
+        }
+
+        .selectProv {
+            margin-right: 15px;
+            margin-left: -83px;
+            margin-top: 45px;
+            height: 35%;
+            width: 87%;
+        }
+
+        .inp {
+            height: 35px;
+            width: 77%;
+            margin-top: 33px;
+            margin-left: -106px;
+            margin-bottom: 1px;
+        }
+        .labelProv{
+            margin-top: 23px;
+        }
+        .labelMail{
+            margin-top: 30px;
+        }
+
+        .labelTel {
+            margin-top: 23px;
+        }
+
+        .grid-form {
+            margin-top: -50px;}
+
+        .in {
+            height: 35px;
+            width: 77%;
+            margin-left: -30px;
+            margin-right: 0;
+            margin-bottom: 10px;
+            margin-top: 35px;
+        }
+        .symbol-Requiered2{
+            margin-top: 40px;
+        }
+        
+        .inpT{
+            width:169%;
+            margin-left: -290px;
+        }
+    
+        form {
+    
+            margin-top: -10px;
+        }
+    
+        .message{
+            border-color: none;
+            border-style:none;
+            grid-template-rows: auto auto;
+            margin-top: 30px;
+            height: 110px;
+            width: 60%;
+        
+        
+        }
+    
+        select {
+            border-radius: 5px;
+            border: none;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+            margin-top: 0px;
+            margin-bottom: -18px;
+            height: 32px;
+        } 
+    
+        input{
+    
+         margin-top: -10px;
+         margin-bottom: 0px;
+        }
+    
+        label {
+            font-family: 'Open Sans', sans-serif;
+            color: white;
+            font-size: small;
+            margin-top: 9px;
+            margin-bottom: 0px;
+            
+        }
+    
+    
+        
+    .message{
+        border-color: none;
+        border-style:none;
+        grid-template-rows: auto auto;
+        margin-top: 8px;
+        height: 180px;
+        width: 60%;
+    
+    
+    }
+       
+        .telefono{
+            margin-top: 7px;
+            height: 32px;
+        }
+        
+       
+        .grid-form {
+            display: flex;
+            height: 100px;
+            width: 82%;
+            
+            }
+    
+        object {
+        border-color: none;
+        border-style:none;
+        display: grid;
+        grid-template-rows: auto auto;
+        margin-top: 10px;
+        height: 65px;
+        width: 80%;
+        margin-left: 10px;
+        
+        
+        }
+    
+        .message {
+            width: 80%;
+        }
+    
+        
+    .send{
+    
+        background-color:#A2FF86;
+        color: rgb(49, 49, 49);
+        font-family: 'Open Sans', sans-serif;
+        font-size: larger;
+        margin-left:  50%;
+        margin-top: 40px;
+        width: 30%;
+        height: 2rem;
+        border-radius: 15px;
+        border: none;
+        box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.5);
+        cursor: pointer;
+      
+     
+    }
+    }
+    
+    @media screen and (max-width: 950px) {
+    
+    
+    
+    form{
+    
+     margin-left: 15%;   
+    }
+    
+    .send{
+    
+        margin-left:  28%;
+    }
+    
+    
+    
+    }
+
+    
+    @media screen and (max-width: 450px) { 
+
+      
+
+    .symbol {
+    
+        margin-bottom: 10px;
+    }
+    
+        form{
+    
+            margin-left: 5%;  
+            margin-top: 73px; 
+           }
+        .send{
+    
+            margin-bottom: 10px;
+        }
+    }
+    
+    
+    @media screen and (max-width: 430px) {
+        .inpT {
+            width: 76%;
+            margin-left: 0%;
+            margin-top: 8px;
+        }
+    
+    .send{
+        margin-top: -10px;
+    }
+        .symbol-requiered-name {
+            margin-bottom: 12px;
+        }
+        .grid-form {
+    
+          flex-direction: column;
+          width: 100%;
+          height: 100%; 
+          margin-top: -5px;
+        }
+
+        .field-nameE {
+            margin-top: -35px;
+        }
+    
+        .telefono {
+            margin-top:10px ;
+            width: 100%;
+            height: 160%;
+        }
+    
+        select{
+          margin-top:2px ;
+          width: 100%;
+          height: 160%;
+         
+        }
+    
+        label {
+    
+            margin-top: 9px;
+        margin-bottom: -2px
+        }
+    
+        .telefono{
+    
+            width: 100%;
+            height: 130%;
+            margin-top: 9px;
+        }
+    
+        .send {
+           margin-top: 13px;
+            margin-left:  4%;
+            width: 45%;
+            
+        }
+div.grid-form{
+
+    margin-top: -30px;
+}
+        .labelTel{
+
+margin-top: 1px;
+margin-bottom: -1px;
+        }
+
+        .selectProv {
+            margin-right: 15px;
+            margin-left: -83px;
+            margin-top: 20px;
+            height: 35px;
+            width: 76%;
+        }
+
+.inTel{
+width: 76%;
+height: 35px;
+margin-top: 30px;
+
+        }
+      
+      
+
+        label.labelProv{
+            height: 100%;
+           margin-bottom: 0px;
+            
+        }
+        .labelProv{
+            margin-top: -1px;
+        }
+        
+        .in {
+            margin-top: 30px;
+            width: 77%;
+            height: 35px;
+            margin-left: -9%;
+            margin-right: 80px;
+        }
+    
+        input{
+    
+            border-radius: 0px;}
+    
+            select {
+                margin-top: 0px;
+                width: 100%;
+                height: 160%;
+               border-radius:  0px; 
+               margin-bottom: 5px;
+            }
+    
+            textarea {
+                width: 95%;
+                margin-left: 1px;
+                margin-top: 10px;
+                margin-bottom: 70px;
+            }
+    
+            .message {
+    
+                height: 220px;
+            }
+
+            label.symbol{
+                margin-top: -1px;
+            }
+    textarea{
+        margin-top: 10px;
+        margin-bottom: 70px;
+    }
+
+    button.send{
+
+       margin-bottom: 30px;
+       box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.5);
+    }
+           
+    } 
+    form{
+    
+        margin-left: 5%;  
+        margin-top: 13px; 
+       }
+    
+    
+    @media screen and (max-width: 400px) {
+    form{
+    
+        margin-left: 5%;  
+        margin-top: 13px; 
+       }}
